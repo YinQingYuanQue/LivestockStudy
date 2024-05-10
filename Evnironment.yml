@@ -1,0 +1,29 @@
+yml
+
+name: BehvCls
+channels:
+  - defaults
+  - conda-forge
+
+dependencies:
+  - python
+  - shapely
+
+  # Data structure
+  - pandas
+  - numpy
+  - geopandas
+
+  # sc packages
+  - sklearn
+  - scipy
+  - statistics
+
+  # pythron jupyter notebook interpreter related
+  - matplotlib
+  - tqdm
+
+  - pip
+  - pip:
+    - pyfftw
+
