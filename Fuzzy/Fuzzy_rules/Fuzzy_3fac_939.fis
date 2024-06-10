@@ -1,0 +1,67 @@
+[System]
+Name='Fuzzy_3fac_939'
+Type='sugeno'
+Version=2.0
+NumInputs=3
+NumOutputs=3
+NumRules=8
+AndMethod='prod'
+OrMethod='probor'
+ImpMethod='prod'
+AggMethod='sum'
+DefuzzMethod='wtaver'
+
+[Input1]
+Name='Speed'
+Range=[0 50]
+NumMFs=2
+MF1='Low':'zmf',[0.197 2.918]
+MF2='High':'smf',[0.197 2.918]
+
+[Input2]
+Name='ODBA'
+Range=[0 100]
+NumMFs=2
+MF1='Low':'zmf',[36.95 49.281]
+MF2='High':'smf',[36.95 49.281]
+
+[Input3]
+Name='Std'
+Range=[0 50]
+NumMFs=2
+MF1='High_Std':'smf',[2.03571942814069 35.0211978801193]
+MF2='Low_Std':'zmf',[2.03572 35.0212]
+
+[Output1]
+Name='Low'
+Range=[0 1]
+NumMFs=3
+MF1='Low':'constant',[0.3]
+MF2='Mid':'constant',[0.6]
+MF3='High':'constant',[1]
+
+[Output2]
+Name='Mid'
+Range=[0 1]
+NumMFs=3
+MF1='Mid':'constant',[0.6]
+MF2='Low':'constant',[0.3]
+MF3='High':'constant',[1]
+
+[Output3]
+Name='High'
+Range=[0 1]
+NumMFs=3
+MF1='Mid':'constant',[0.6]
+MF2='Low':'constant',[0.3]
+MF3='High':'constant',[1]
+
+[Rules]
+2 2 1, 1 1 3 (1) : 1
+2 2 2, 1 2 3 (1) : 1
+2 1 1, 1 3 1 (1) : 1
+2 1 2, 1 1 3 (1) : 1
+1 2 1, 1 1 3 (1) : 1
+1 2 2, 1 3 3 (1) : 1
+1 1 1, 2 1 1 (1) : 1
+1 1 2, 3 2 2 (1) : 1
