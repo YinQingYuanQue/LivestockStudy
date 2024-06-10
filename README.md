@@ -3,6 +3,7 @@
 |-Code
    |- K_means_dataming.ipynb
    |- DataMining.ipynb
+   |- Fuz_Memb.m
 |-Data
    |- testData
         |- Acc
@@ -20,7 +21,12 @@
                 |- 943_Aug_ODBA.shp
                 |- 943_Aug.shp
             |- 943_cl.shp
-
+|-Fuzzy
+    |- Fuzzy_rules
+        |- Fuzzy_3fac_939.fis
+    |- Fuzzy_table
+        |- Input_939.csv
+        |- Output_939.csv
 </pre>
 ## Detailed explanation will be displayed inside each folder 
 
