@@ -34,15 +34,15 @@ https://unmm-my.sharepoint.com/:f:/g/personal/dawnmoon_unm_edu/EtDURxjTTPZPk6kwj
 
 
 ## Naming Conventions
-
-* Hidden Markov Model  
-  |- _HMM
-* K-means Classification  
-  |- _KM
-* Speed Only  
-  |- _S
-* Speed and Accelerometer  
-  |- _SA
-
+<pre>
+Hidden Markov Model  
+   |- _HMM
+K-means Classification  
+   |- _KM
+Speed Only  
+   |- _S
+Speed and Accelerometer  
+   |- _SA
+</pre>
 
 
