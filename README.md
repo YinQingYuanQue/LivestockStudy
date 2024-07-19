@@ -32,3 +32,17 @@
 Full data can be found with this link: <br>
 https://unmm-my.sharepoint.com/:f:/g/personal/dawnmoon_unm_edu/EtDURxjTTPZPk6kwjiTu6LIBC_AC2JRvC2iXHGBclL_gjw?e=47IDj5 
 
+
+## Naming Conventions
+
+* Hidden Markov Model
+  |- _HMM
+* K-means Classification
+  |- _KM
+* Speed Only
+  |- _S
+* Speed and Accelerometer
+  |- _SA
+
+
+
