@@ -13,27 +13,27 @@ DefuzzMethod='wtaver'
 
 [Input1]
 Name='Speed'
-Range=[0 50]
+Range=[0 60]
 NumMFs=2
-MF1='Low':'zmf',[0.197 2.918]
-MF2='High':'smf',[0.197 2.918]
+MF1='Low':'zmf',[0.312 1.579]
+MF2='High':'smf',[0.3744 1.895]
 
 [Input2]
 Name='ODBA'
 Range=[0 100]
 NumMFs=2
-MF1='Low':'zmf',[36.95 49.281]
-MF2='High':'smf',[36.95 49.281]
+MF1='Low':'zmf',[37.889 46.319]
+MF2='High':'smf',[37.89 46.32]
 
 [Input3]
 Name='Std'
 Range=[0 50]
 NumMFs=2
-MF1='High_Std':'smf',[0.938313546910278 10.7940221937206]
-MF2='Low_Std':'zmf',[0.938314 10.794]
+MF1='High_Std':'smf',[1.283 5.609]
+MF2='Low_Std':'zmf',[1.283 5.609]
 
 [Output1]
-Name='Low'
+Name='Low_act'
 Range=[0 1]
 NumMFs=3
 MF1='Low':'constant',[0.3]
@@ -41,19 +41,19 @@ MF2='Mid':'constant',[0.6]
 MF3='High':'constant',[1]
 
 [Output2]
-Name='Mid'
+Name='Mid_act'
 Range=[0 1]
 NumMFs=3
-MF1='Mid':'constant',[0.6]
-MF2='Low':'constant',[0.3]
+MF1='Mid':'constant',[0.3]
+MF2='Low':'constant',[0.6]
 MF3='High':'constant',[1]
 
 [Output3]
-Name='High'
+Name='High_act'
 Range=[0 1]
 NumMFs=3
-MF1='Mid':'constant',[0.6]
-MF2='Low':'constant',[0.3]
+MF1='Mid':'constant',[0.3]
+MF2='Low':'constant',[0.6]
 MF3='High':'constant',[1]
 
 [Rules]

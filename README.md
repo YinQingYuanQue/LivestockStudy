@@ -2,7 +2,7 @@
 <pre>
 |-Code
    |- K_means_dataming.ipynb
-   |- DataMining.ipynb
+   |- DataStats.ipynb
    |- Fuz_Memb.m
    |- GPS_Stats.ipynb
 |-Data
