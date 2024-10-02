@@ -1,4 +1,7 @@
-Data/GPS/
-Data/Roads
-Data/AUM
-Fuzzy/
+Data/GPS/2022/
+Data/GPS/2023/
+Data/ACC/
+Data/Roads/
+Data/AUM/
+Data/Risk/
+Fuzzy

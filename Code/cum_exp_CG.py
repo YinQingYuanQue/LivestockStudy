@@ -9,7 +9,7 @@ df = pd.DataFrame(df)
 df['MT Time'] = pd.to_datetime(df['MT Time'])
 df = df.set_index('MT Time')
 
-df = df.between_time('8:00:00','7:00:00')
+df = df.between_time('8:00:00','19:00:00')
 df = df.reset_index()
 aug_df = df[df['MT Time'].dt.month == 8]
 sep_df = df[df['MT Time'].dt.month == 9]
