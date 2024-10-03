@@ -1,13 +1,13 @@
 % set the full path
-fis = readfis('./testFuzzy/Fuzzy_rules/Fuzzy_3fac_939.fis');
+fis = readfis('./Fuzzy/Fuzzy_rules/2023/Fuzzy_3fac_947.fis');
 
-raw_data = readmatrix('./Fuzzy/Fuzzy_table/Input_939_2.csv');
+raw_data = readmatrix('./Fuzzy/Fuzzy_table/Input_947_23.csv');
 data = raw_data(:,2:4);
 
 FM = evalfis(fis,data)
 
 FM(:,4) = raw_data(:,1)
-writematrix(FM,'./testFuzzy/Fuzzy_table/Output_939_2.csv')
+writematrix(FM,'./Fuzzy/Fuzzy_table/Output_947_23.csv')
 
 %hold all
 %plotmf(fis,'input',2)
